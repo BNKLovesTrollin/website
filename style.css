@@ -1,10 +1,10 @@
-body{
+body {
     font-family: 'Varela Round', sans-serif;
-    background: radial-gradient(circle, transparent 25%, #212121  26%),linear-gradient(45deg, transparent 46%, #353535 47%, #353535 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #353535 47%, #353535 52%, transparent 53%);
-    background-size: 3em 3em;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/802114790894531555/045F7A07B4272EF961134A63045A60BCB9A4CEC3/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
     background-color: #212121;
     opacity: 1;
     padding-top: 10%;
+    background-size: 85em 63em;
 }
 ::selection {
     color: #ff5050;
@@ -55,8 +55,8 @@ body{
     color: #FFF;
     font-size: 30px;
 }
-.project a{
-    color: #8d8d8d;
+.project a {
+    color: #177bf7;
     transition: 0.3s ease-in-out;
     text-decoration: none;
 }
