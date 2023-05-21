@@ -1,0 +1,110 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    background: radial-gradient(circle, transparent 25%, #212121  26%),linear-gradient(45deg, transparent 46%, #353535 47%, #353535 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #353535 47%, #353535 52%, transparent 53%);
+    background-size: 3em 3em;
+    background-color: #212121;
+    opacity: 1;
+    padding-top: 10%;
+}
+::selection {
+    color: #ff5050;
+    background: #FFFFFF;
+  }
+.main{    
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background: #353535;
+    color: #FFF;
+    border-radius: 30px;
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+.header {
+    width: 90%;
+    margin: auto;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.header iframe {
+    float: left;
+    padding-right: 10px;
+}
+
+.headerseco {
+    display: none;
+}
+
+.headerseco a{
+    color: #8d8d8d;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+.headerseco a:hover{
+    color: #d3d3d3;
+}
+
+.text{
+    text-justify: auto;
+    text-align: left;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 30px;
+}
+.project a{
+    color: #8d8d8d;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+.project a:hover{
+    color: #d3d3d3;
+}
+.buttons{
+    margin: auto;
+    max-width: 700px;
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 25px 25px;
+    border: 2px solid #353535;
+    border-radius: 30px;
+    background: #353535;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+}
+.button:hover {
+    border: 2px solid #5f5f5f;
+    background: #5f5f5f;
+    color: #FFF;
+    cursor: pointer;
+}
+
+@media (max-width: 560px) {
+    .header iframe{
+        padding-bottom: 10px;
+    }
+    .headerseco{
+        display: block;
+        margin: auto;
+        width: auto;
+        border-radius: 20px;
+        background: #464646;
+        text-align: left;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+    }
+    .button{
+        width: 90%;
+    }
+    .project{
+        display: none;
+    }
+  }
